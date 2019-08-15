@@ -1,0 +1,13 @@
+{
+  "id":"560f52d9-363f-4a28-835b-686aee73e929",
+  "name":"Value Driver Tree",
+  "description":null,
+  "version":"2.2.2",
+  "draft":false,
+  "mapping": [
+    {"alias":"nodes","dataSetId":"daa59b57-76c9-4304-b405-6a05ade630d8","fields":[],"dql":null},
+    {"alias":"groups","dataSetId":"57ebc42e-c470-46fa-a45b-d904a6916038","fields":[],"dql":null},
+    {"alias":"link","dataSetId":"79f2effd-5ac8-493d-b5f1-3cbbebab53d2","fields":[],"dql":null}],
+  "size":{"width":6.0,"height":3.0},
+  "fullpage":true
+}

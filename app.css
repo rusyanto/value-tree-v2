@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+.app-header{
+    display: none;
+	width: 100%;
+	background-color: #9ECAE9;
+	height: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	clear: both;
+	z-index: 1000;
+	position: fixed;
+}
+
+.app-header-title{
+	padding: 15px 80px 15px 0px;
+	font-size: 24px;
+	color: #FFFFFF;
+	float: right;
+	font-weight: 100;
+}
+
+.app-header-image{
+	height: 50px;
+	float: left;
+}
+
+#vdt{
+	width: 100%;
+  font-family: 'Open Sans';
+}
+
+#myDiagramDiv { height:95vh; }
+
+#myOverviewDiv {
+    position: absolute;
+    width:162px;
+    height:100px;
+/*    top: 70px;
+    right: 6px; */
+    background-color: lightgrey;
+    z-index: 300; /* make sure its in front */
+    border: solid 1px grey;
+  }
+
+  #mySearch {
+      position: absolute;
+      top: 4px;
+      right: 60px;
+      z-index: 300; /* make sure its in front */
+    }
+
+@media only screen and (max-width: 300px) {
+  #mySearch, #myOverviewDiv { display: none;}
+}
+
+.ui.dimmer {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    display: none; /* Hidden by default */
+    margin: auto auto; /* 15% from the top and centered */
+    width: 90%; /* Could be more or less, depending on screen size */
+}
