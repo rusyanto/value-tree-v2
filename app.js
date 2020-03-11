@@ -7,6 +7,8 @@
 // For additional documentation on how you can query your data, please refer to
 // https://developer.domo.com/docs/dev-studio/dev-studio-data
 
+// Original JSFiddle
+// https://jsfiddle.net/cgtnm47q/372/
 
 controller();
 
@@ -174,16 +176,16 @@ function renderTree(treeArray){
              new go.Binding("visible", "actionIcon")),
           $(go.TextBlock,
             { font: '8px sans-serif', alignment: new go.Spot(0.6, 0.6,  0, 0),
-						click: function (e, obj) {
-	                var node = obj.part;
-	                if (node === null) return;
-	                e.handled = true;
+						// click: function (e, obj) {
+	          //       var node = obj.part;
+	          //       if (node === null) return;
+	          //       e.handled = true;
 
-									var filterValue = '"' + encodeURIComponent(node.data.key).replace(',','","') + '"';
-									var actionURL = '/page/1654963323?pfilters=[{"column":"Metric","dataSourceId": "19ca6b6b-ea16-42cf-ac02-5a43aaad3a3d","dataType":"string","operand":"IN","values":[' + filterValue + ']}]'
-									//console.log("navigate: ", actionURL);
-									domo.navigate(actionURL, e.shift);
-	              }
+						// 			var filterValue = '"' + encodeURIComponent(node.data.key).replace(',','","') + '"';
+						// 			var actionURL = '/page/1654963323?pfilters=[{"column":"Metric","dataSourceId": "19ca6b6b-ea16-42cf-ac02-5a43aaad3a3d","dataType":"string","operand":"IN","values":[' + filterValue + ']}]'
+						// 			//console.log("navigate: ", actionURL);
+						// 			domo.navigate(actionURL, e.shift);
+	          //     }
 						}, new go.Binding("text", "actionNumber"))
         ),
 				//middle

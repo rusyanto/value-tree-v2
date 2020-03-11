@@ -1,13 +1,34 @@
 {
-  "id":"560f52d9-363f-4a28-835b-686aee73e929",
-  "name":"Value Driver Tree",
-  "description":null,
-  "version":"2.2.2",
-  "draft":false,
+  "name": "Value Driver Tree",
+  "description": null,
+  "version": "2.2.2",
+  "draft": false,
   "mapping": [
-    {"alias":"nodes","dataSetId":"daa59b57-76c9-4304-b405-6a05ade630d8","fields":[],"dql":null},
-    {"alias":"groups","dataSetId":"57ebc42e-c470-46fa-a45b-d904a6916038","fields":[],"dql":null},
-    {"alias":"link","dataSetId":"79f2effd-5ac8-493d-b5f1-3cbbebab53d2","fields":[],"dql":null}],
-  "size":{"width":6.0,"height":3.0},
-  "fullpage":true
+    {
+      "alias": "nodes",
+      "dataSetId": "f4a105ec-0c28-472e-b5a5-8d1c0b67735e",
+      "fields": [],
+      "dql": null
+    },
+    {
+      "alias": "groups",
+      "dataSetId": "04c282ff-8917-4a54-be6b-bc85506d65fb",
+      "fields": [],
+      "dql": null
+    },
+    {
+      "alias": "link",
+      "dataSetId": "d593dd1f-8036-4ba2-87db-84904c050334",
+      "fields": [],
+      "dql": null
+    }
+  ],
+  "size": {
+    "width": 6,
+    "height": 3
+  },
+  "fullpage": true,
+  "id": "a2b78e37-df3a-41a4-a7e2-dad0d53cd98d",
+  "proxyId": "936a6505-bb7b-4d2d-86a0-24d4e267c301",
+  "fileName": "manifest.json"
 }
